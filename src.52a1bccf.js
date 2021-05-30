@@ -8,7 +8,7 @@ var t,e=arguments[3];!function(e,n){"object"==typeof exports&&"undefined"!=typeo
 },{}],"xSVp":[function(require,module,exports) {
 
 },{}],"UiX9":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=require("@pnotify/core");require("@pnotify/core/dist/BrightTheme.css"),require("@pnotify/core/dist/PNotify.css");const r=()=>{(0,e.error)({title:"Too many matches found. Please enter a more specific query!",sticker:!1})};var t=r;exports.default=t;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=require("@pnotify/core");require("@pnotify/core/dist/BrightTheme.css"),require("@pnotify/core/dist/PNotify.css");const r=()=>{(0,e.error)({title:"Please check if it is entered correctly!",sticker:!1})};var t=r;exports.default=t;
 },{"@pnotify/core":"txz9","@pnotify/core/dist/BrightTheme.css":"xSVp","@pnotify/core/dist/PNotify.css":"xSVp"}],"pAws":[function(require,module,exports) {
 var define;
 var global = arguments[3];
@@ -24,4 +24,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=a(require("lodash.debounce")),t=a(require("./js/error")),u=a(require("./templates/country-list.hbs")),r=a(require("./templates/country-card.hbs")),n=a(require("./js/fetchCountries")),s=a(require("./js/refs"));function a(e){return e&&e.__esModule?e:{default:e}}require("./sass/main.scss");const i=(0,s.default)(),l=e=>{e.length>=2&&e.length<=10?i.outputCountry.innerHTML=(0,u.default)(e):1===e.length?i.outputCountry.innerHTML=(0,r.default)(...e):(0,t.default)()};function o(e){i.outputCountry.innerHTML="",this.value=this.value.replace(/[^\[A-Za-zА]/g,"");const u=e.target.value;u.length&&n.default.fetchCountries(u).then(l).catch(t.default)}i.inputCountry.addEventListener("input",(0,e.default)(o,500));
 },{"lodash.debounce":"PZFh","./js/error":"UiX9","./templates/country-list.hbs":"htiI","./templates/country-card.hbs":"DRrH","./js/fetchCountries":"irxn","./js/refs":"VyiV","./sass/main.scss":"xSVp"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-12-countries/src.d05c13c8.js.map
+//# sourceMappingURL=/goit-js-hw-12-countries/src.52a1bccf.js.map
