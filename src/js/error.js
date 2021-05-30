@@ -4,7 +4,7 @@ import '@pnotify/core/dist/PNotify.css';
 
 const callError = () => {
     const myError = error({
-        title: 'Too many matches found. Please enter a more specific query!',
+        title: 'Please check if it is entered correctly!',
         sticker: false,
     });
 }
